@@ -1,6 +1,6 @@
 If you love (or have to) code in Netbeans and in JavaScript, here is a nice tip for instantly dumping (and pretty print) a variable in browser console (and save some keystrokes).
 
-Create a macro in Netbeans and assign a keyboard shortcut like "Ctrl+Alt+D" to that macro.
+Create a macro in Netbeans and assign a keyboard shortcut like __Ctrl+Alt+D__ to that macro.
 
 ```
 select-identifier copy-to-clipboard caret-end-line insert-break 
