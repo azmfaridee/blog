@@ -1,6 +1,6 @@
 ## Recent Posts
 
-### Netbeans Tips For Easy JS Debug
+### Tips For Easy JS Debug in Netbeans (2013-06-23)
 
 If you love (or have to) code in Netbeans and in JavaScript, here is a nice tip for instantly dumping (and pretty print) a variable in browser console (and save some keystrokes).
 
@@ -19,6 +19,24 @@ console.log(JSON.stringify(myVariable, null, 2));
 ```
 
 
+### Github Powered Blogging Experiment with Automaic TOC Generation (2013-06-23)
+
+Hey Guys,
+
+I've been experimenting with the idea of writhing down my code snippets and other ideas as a microblog for a while. I used to write a blog in blogspot but these days I don't find writing there very entertaining, since they redesigned the whole system.
+
+Like everyone else I've been a fan of Github Wikis and Markdown, so I thought why not give this a try. Github's code highlight and markdown syntax is all I need for a programming centric blog, I don't need any fancy CSS and whatever.
+
+But creating an index all by yourself would be really painful, so I did two things for that.
+
+* Maintained a very easy folder structure so that the folders can be sorted lexicographically without much regex parsing
+* Created as simple shell script as pre commit git hook that automatically updates the homepage (README.md file) with two most recent posts and a table of contents.
+
+So far it's looking good. I'd going to update the scripts incrementally with more and more features if I get time.
+
+
+
 ## Table of Contents
 
-* [Netbeans Tips For Easy JS Debug](2013-06/23-Netbeans-Tips-For-Easy-JS-Debug.md)
+* [Tips For Easy JS Debug in Netbeans](2013-06/23-Tips-For-Easy-JS-Debug-in-Netbeans.md)
+* [Github Powered Blogging Experiment with Automaic TOC Generation](2013-06/23-Github-Powered-Blogging-Experiment-with-Automaic-TOC-Generation.md)
