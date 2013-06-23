@@ -32,8 +32,13 @@ But creating an index all by yourself would be really painful, so I did two thin
 * Maintained a very easy folder structure so that the folders can be sorted lexicographically without much regex parsing
 * Created as simple shell script as pre commit git hook that automatically updates the homepage (README.md file) with two most recent posts and a table of contents.
 
-So far it's looking good. I'd going to update the scripts incrementally with more and more features if I get time.
+To install the pre-commit hook, just copy it to the hooks folder.
 
+```bash
+$ cp pre-commit-hook.sh .git/hooks/pre-commit 
+```
+
+So far it's looking good. I'd going to update the scripts incrementally with more and more features if I get time.
 
 
 ## Table of Contents
