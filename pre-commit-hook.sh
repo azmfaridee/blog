@@ -35,3 +35,4 @@ do
 	page=${page:2}
 	echo "* [$label]($page)" >> $index;
 done
+exit
