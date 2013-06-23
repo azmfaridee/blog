@@ -2,8 +2,14 @@ If you love (or have to) code in Netbeans and in JavaScript, here is a nice tip 
 
 Create a macro in Netbeans and assign a keyboard shortcut like "Ctrl+Alt+D" to that macro.
 
-```select-identifier copy-to-clipboard caret-end-line insert-break "console.log(\"" paste-from-clipboard " = \" + JSON.stringify(" paste-from-clipboard ", null, 2));"```
+```
+select-identifier copy-to-clipboard caret-end-line insert-break 
+"console.log(\"" paste-from-clipboard " = \" 
++ JSON.stringify(" paste-from-clipboard ", null, 2));"
+```
 
 Next time you cursor is on top a JS variable, just press the shortcut key, a line like following will be automatically inserted after the line you are working on:
 
-```console.log(JSON.stringify(myVariable, null, 2));```
+```javascript
+console.log(JSON.stringify(myVariable, null, 2));
+```
