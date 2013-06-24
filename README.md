@@ -7,7 +7,10 @@ Use this code snippet to find out public ip from your command line whenever you 
 ```bash
 curl -s checkip.dyndns.org | grep -Eo '[0-9\.]+' 
 ```
-
+This also works:
+```bash
+curl ifconfig.me
+```
 
 
 ### Tips For Easy JS Debug in Netbeans (2013-06-23)
