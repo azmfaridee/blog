@@ -1,5 +1,15 @@
 ## Recent Posts
 
+### Get Public IP From Command Line (2013-06-24)
+
+Use this code snippet to find out public ip from your command line whenever you are trying to do it in bash scripts:
+
+```bash
+curl -s checkip.dyndns.org | grep -Eo '[0-9\.]+' 
+```
+
+
+
 ### Tips For Easy JS Debug in Netbeans (2013-06-23)
 
 If you love (or have to) code in Netbeans and in JavaScript, here is a nice tip for instantly dumping (and pretty print) a variable in browser console (and save some keystrokes).
@@ -43,5 +53,6 @@ So far it's looking good. In fact if you are reading this post from the homepage
 
 ## Table of Contents
 
+* [Get Public IP From Command Line](2013-06/24-Get-Public-IP-From-Command-Line.md)
 * [Tips For Easy JS Debug in Netbeans](2013-06/23-Tips-For-Easy-JS-Debug-in-Netbeans.md)
 * [Github Powered Blogging Experiment with Automaic TOC Generation](2013-06/23-Github-Powered-Blogging-Experiment-with-Automaic-TOC-Generation.md)
