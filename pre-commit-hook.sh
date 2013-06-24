@@ -14,7 +14,7 @@ function extract_date () {
 }
 
 pages=$(find . | grep '.md$' | grep -v 'README.md' | sort -r)
-recent_pages=$(find . | grep '.md$' | grep -v 'README.md' | sort -r | head -n5)
+recent_pages=$(find . | grep '.md$' | grep -v 'README.md' | sort -r | head -n10)
 index=README.md
 
 echo '## Recent Posts\n' > $index;
