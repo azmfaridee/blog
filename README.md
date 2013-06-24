@@ -1,5 +1,25 @@
 ## Recent Posts
 
+### Use Vim as a Pager with Syntax Highlighting (2013-06-24)
+
+This tip will use _Vim_ as a pager instead of `more` or `less` command that we use normally. The benefit is that, you can have syntax highlighting that comes with _Vim_ when you are using `more` or `less` commands from the shell.
+
+If you are using macports, run the command:
+```bash
+sudo port -v install vimpager
+```
+
+Then add these lines into your .bashrc file
+
+```bash
+export PAGER=vimpager
+alias less=$PAGER
+alias zless=$PAGER
+```
+
+Done!
+
+
 ### Get Public IP From Command Line (2013-06-24)
 
 Use this code snippet to find out public ip from your command line whenever you are trying to do it in bash scripts:
@@ -56,6 +76,7 @@ So far it's looking good. In fact if you are reading this post from the homepage
 
 ## Table of Contents
 
+* [Use Vim as a Pager with Syntax Highlighting](2013-06/24-Use-Vim-as-a-Pager-with-Syntax-Highlighting.md)
 * [Get Public IP From Command Line](2013-06/24-Get-Public-IP-From-Command-Line.md)
 * [Tips For Easy JS Debug in Netbeans](2013-06/23-Tips-For-Easy-JS-Debug-in-Netbeans.md)
 * [Github Powered Blogging Experiment with Automaic TOC Generation](2013-06/23-Github-Powered-Blogging-Experiment-with-Automaic-TOC-Generation.md)
