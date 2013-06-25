@@ -1,5 +1,25 @@
 ## Recent Posts
 
+### Mac OSX Alternative of Linux IPTraf (2013-06-25)
+
+While working in Linux, I tend to use the software `iptraf` to monitor network speed. In Mac OSX, of course that software is not available, even in _macports_ or _homebrew_. But there is an alternative, it's called `iftop`.
+
+If you have _macports_ you can install that with:
+
+```bash
+sudo port -v install iptop
+```
+
+After installing the software, you can monitor your specific interface with it. Assume that `en1` is your Wifi card's designator. Then you should run this command:
+
+```bash
+sudo iftop -i en1
+```
+
+The software's interface is not equal to `iptraf`, but it does the job for me :)
+
+
+
 ### Use Vim as a Pager with Syntax Highlighting (2013-06-24)
 
 This tip will use _Vim_ as a pager instead of `more` or `less` command that we use normally. The benefit is that, you can have syntax highlighting that comes with _Vim_ when you are using `more` or `less` commands from the shell.
@@ -76,6 +96,7 @@ So far it's looking good. In fact if you are reading this post from the homepage
 
 ## Table of Contents
 
+* [Mac OSX Alternative of Linux IPTraf](2013-06/25-Mac-OSX-Alternative-of-Linux-IPTraf.md)
 * [Use Vim as a Pager with Syntax Highlighting](2013-06/24-Use-Vim-as-a-Pager-with-Syntax-Highlighting.md)
 * [Get Public IP From Command Line](2013-06/24-Get-Public-IP-From-Command-Line.md)
 * [Tips For Easy JS Debug in Netbeans](2013-06/23-Tips-For-Easy-JS-Debug-in-Netbeans.md)
