@@ -20,6 +20,33 @@ The software's interface is not equal to `iptraf`, but it does the job for me :)
 
 
 
+### Cleaning up Unnecessary Files of Macports (2013-06-25)
+
+Macports need cleanup of it's old downloaded and installed ports from time to time. Today morning I checked my macports folder and found out that it's taking a whooping _9.1 Gigabytes_ of space in my hard drive.
+
+```bash
+$ du -sh /opt
+9.1G	/opt
+```
+
+I ran these two commands to clean up the mess.
+
+```bash
+sudo port clean --all installed
+sudo port -f uninstall inactive
+```
+
+After running the commands, here is the result.
+
+```bash
+$ du -sh /opt
+6.2G	/opt
+```
+
+Almost _3 Gigabytes_ saved. Not bad, huh?
+
+
+
 ### Use Vim as a Pager with Syntax Highlighting (2013-06-24)
 
 This tip will use _Vim_ as a pager instead of `more` or `less` command that we use normally. The benefit is that, you can have syntax highlighting that comes with _Vim_ when you are using `more` or `less` commands from the shell.
@@ -97,6 +124,7 @@ So far it's looking good. In fact if you are reading this post from the homepage
 ## Table of Contents
 
 * [Mac OSX Alternative of Linux IPTraf](2013-06/25-Mac-OSX-Alternative-of-Linux-IPTraf.md)
+* [Cleaning up Unnecessary Files of Macports](2013-06/25-Cleaning-up-Unnecessary-Files-of-Macports.md)
 * [Use Vim as a Pager with Syntax Highlighting](2013-06/24-Use-Vim-as-a-Pager-with-Syntax-Highlighting.md)
 * [Get Public IP From Command Line](2013-06/24-Get-Public-IP-From-Command-Line.md)
 * [Tips For Easy JS Debug in Netbeans](2013-06/23-Tips-For-Easy-JS-Debug-in-Netbeans.md)
