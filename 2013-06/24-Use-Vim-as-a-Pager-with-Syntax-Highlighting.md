@@ -13,5 +13,5 @@ alias less=$PAGER
 alias zless=$PAGER
 ```
 
-A side effect of this, you'll notice that your man pages are also appearing colorful as man pages are also rendered with _vim_ by default after this.
+Done
 
