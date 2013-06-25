@@ -16,7 +16,7 @@ After installing the software, you can monitor your specific interface with it. 
 sudo iftop -i en1
 ```
 
-The software's interface is not equal to `iptraf`, but it does the job for me :)
+The software's interface is not as pretty as `iptraf`, but it does the job for me :)
 
 
 
