@@ -64,7 +64,8 @@ alias less=$PAGER
 alias zless=$PAGER
 ```
 
-Done!
+A side effect of this, you'll notice that your man pages are also appearing colorful as man pages are also rendered with _vim_ by default after this.
+
 
 
 ### Get Public IP From Command Line (2013-06-24)
